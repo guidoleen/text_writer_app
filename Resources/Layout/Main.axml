@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clik voor de Text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="119.5dp"
+            android:id="@+id/TxtView"
+            android:layout_marginBottom="0.0dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="123.5dp"
+            android:textSize="20dp" />
+        <Button
+            android:text="Voeg de text toe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextToevoeg" />
+        <Button
+            android:text="Delete Alle Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttdelete" />
+        <Button
+            android:text="Naar Web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buttweb"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+</ScrollView>
